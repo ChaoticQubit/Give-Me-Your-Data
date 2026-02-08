@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.chaoticqubit.githubcommithistory</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/chaoticqubit/Code/Automations/Data Fetchers/Github Commit History/.venv/bin/python</string>
+        <string>/Users/chaoticqubit/Code/Automations/Data Fetchers/Github Commit History/main.py</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/chaoticqubit/Code/Automations/Data Fetchers/Github Commit History</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/github_commit_history.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/github_commit_history.err</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>
