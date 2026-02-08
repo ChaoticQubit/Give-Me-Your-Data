@@ -1,0 +1,11 @@
+[project]
+name = "github-commit-history"
+version = "0.1.0"
+description = "Fetch GitHub commit history and update Obsidian daily note"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "schedule",
+]
